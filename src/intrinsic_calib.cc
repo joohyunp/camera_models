@@ -1,10 +1,3 @@
-#define BACKWARD_HAS_DW 1
-#include "backward.hpp"
-namespace backward
-{
-backward::SignalHandling sh;
-}
-
 #include <boost/algorithm/string.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/program_options.hpp>

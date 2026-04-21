@@ -81,17 +81,17 @@ target_link_libraries(Calibration
     ${Boost_LIBRARIES}
     ${OpenCV_LIBS}
     ${CERES_LIBRARIES}
-    dw    )
+    )
 target_link_libraries(april_calib
     ${Boost_LIBRARIES}
     ${OpenCV_LIBS}
     ${CERES_LIBRARIES}
-    dw    )
+    )
 target_link_libraries(Test
     ${Boost_LIBRARIES}
     ${OpenCV_LIBS}
     ${CERES_LIBRARIES}
-     dw    )
+    )
 target_link_libraries(camera_models
     ${Boost_LIBRARIES}
     ${OpenCV_LIBS}
